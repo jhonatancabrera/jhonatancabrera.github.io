@@ -318,7 +318,7 @@ header {
     color: aliceblue;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("imagenes/senati.jpg");
+            rgba(0, 0, 0, 0.5)), url("imagenes/senati.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -347,7 +347,7 @@ header {
 }
 
 #hero .img-container {
-    background-image: url("imagenes/campusonline.jpg");
+    background-image: url("imagenes/campusonline.webp");
     background-size: cover;
     background-position: center center;
     height: 300px;
