@@ -920,7 +920,6 @@ button.btn3 {
 
             & li a {
                 display: flex;
-                color: var(--colorgristexto2);
                 font-size: 13px;
             }
 
@@ -1139,10 +1138,6 @@ button.btn3 {
         flex-direction: column;
     }
 
-    .info a {
-        color: gray;
-    }
-
     .info {
         color: var(--colornegro);
     }
@@ -1177,7 +1172,7 @@ button.btn3 {
 
             & li a {
                 display: flex;
-                color: var(--colorgristexto2);
+                color: var(--colorazul);
                 font-size: 14px;
             }
 
