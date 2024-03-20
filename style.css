@@ -799,11 +799,11 @@ button.btn3 {
     }
 
     .servicios-1 .zoom {
-        transition: transform .7s;
+        transition: none;
     }
 
     .servicios-1 .zoom:hover {
-        transform: scale(1.2);
+        transform: none;
     }
 
     .servicios-1 img {
@@ -1095,6 +1095,14 @@ button.btn3 {
     .servicios-1 img {
         width: 7cm;
         height: auto;
+    }
+
+    .servicios-1 .zoom {
+        transition: none;
+    }
+
+    .servicios-1 .zoom:hover {
+        transform: none;
     }
 
     .servicios-1 h4 {
