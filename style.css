@@ -632,35 +632,29 @@ button.btn3 {
 
     /* campus senati */
 
-    #hero {
-        height: 45vh;
-        color: aliceblue;
-    }
-
-    #hero .container {
+    .hero {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
     }
 
-    #hero .texto {
-        width: 60%;
+    .hero .texto {
+        width: 80%;
         max-width: 600px;
         padding: 0px 0px 0 30px;
     }
 
-    #hero h4 {
+    .hero h4 {
         margin-top: 10px;
         margin-bottom: 15px;
         font-size: 1.5em;
     }
 
-    #hero .img-container {
-        height: 200px;
-        width: 300px;
+    .hero .img-container img {
+        height: auto;
+        width: 80%;
     }
 
-    #hero p {
+    .hero p {
         padding: 6px 0px;
     }
 
@@ -862,35 +856,32 @@ button.btn3 {
     /* campus senati */
 
     #hero {
-        height: 40vh;
-        color: aliceblue;
+        height: auto;
     }
 
-    #hero .container {
+    .hero {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
     }
 
-    #hero .texto {
-        width: 45%;
-        padding: 0px;
+    .hero .texto {
+        width: 120%;
+        max-width: 600px;
+        padding: 0;
     }
 
-    #hero h4 {
+    .hero h4 {
         margin-top: 10px;
-        margin-bottom: 2px;
-        font-size: 20px;
+        margin-bottom: 15px;
+        font-size: 1.5em;
     }
 
-    #hero .img-container {
-        height: 180px;
-        width: 280px;
-
+    .hero .img-container img {
+        height: auto;
+        width: 80%;
     }
 
-    #hero p {
-        font-size: 15px;
+    .hero p {
         padding: 6px 0px;
     }
 
@@ -1120,37 +1111,24 @@ button.btn3 {
 
     /* campus senati */
 
-    #hero {
-        height: 80vh;
-        color: aliceblue;
-    }
-
-    #hero .container {
+    .hero {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #hero .texto {
+    .hero .texto {
         width: 80%;
-        padding: 0px;
+        max-width: 600px;
+        padding: 0;
     }
 
-    #hero h4 {
-        margin-top: 10px;
-        margin-bottom: 2px;
-        font-size: 20px;
-        text-align: center;
+    .hero .img-container img {
+        height: auto;
+        width: 70%;
     }
 
-    #hero .img-container {
-        height: 190px;
-        width: 340px;
-
-    }
-
-    #hero p {
-        font-size: 17px;
+    .hero p {
         padding: 6px 0px;
     }
 
