@@ -336,12 +336,12 @@ header {
     background-position: center center;
 }
 
-#hero .container {
+.hero {
     display: flex;
     justify-content: space-evenly;
 }
 
-#hero .texto {
+.hero .texto {
     width: 60%;
     max-width: 600px;
     text-align: initial;
@@ -352,19 +352,15 @@ header {
     justify-content: center;
 }
 
-#hero h4 {
+.hero .texto h4 {
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 1.5em;
 }
 
-#hero .img-container {
-    background-image: url("imagenes/campusonline.webp");
-    background-size: cover;
-    background-position: center center;
-    padding: 10px 30px;
-    height: 300px;
-    width: 500px;
+.hero .img-container img {
+    height: auto;
+    width: 80%;
 }
 
 #hero p {
