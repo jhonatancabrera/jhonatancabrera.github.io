@@ -291,16 +291,27 @@ header {
 }
 
 .imagenclass a img {
-    display: flex;
-    justify-content: center;
     height: auto;
-    width: 100%;
+    width: 900px;
 }
 
 .imagenclass {
     height: 153px;
     width: auto;
     padding: 0;
+}
+
+.imagenclass.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fondo {
@@ -350,6 +361,7 @@ header {
     background-image: url("imagenes/campusonline.webp");
     background-size: cover;
     background-position: center center;
+    padding: 10px 30px;
     height: 300px;
     width: 500px;
 }
@@ -497,7 +509,7 @@ button.btn3 {
 }
 
 .whatsapp a img {
-    width: 75px;
+    width: 60px;
     height: auto;
 }
 
@@ -817,7 +829,6 @@ button.btn3 {
     }
 
     .servicios-1 h4 {
-        font-weight: bold;
         font-size: 15px;
     }
 
