@@ -172,7 +172,7 @@ header {
 }
 
 #servicios {
-    background-color: var(--colorgrisfondo);
+    background-color: rgb(255, 255, 255);
 }
 
 .servicios {
@@ -275,7 +275,7 @@ header {
 
 .servicios-1 p {
     font-style: italic;
-    color: #888888;
+    color: #000000;
 }
 
 
@@ -411,7 +411,7 @@ footer {
 
         & li a {
             display: flex;
-            color: var(--colorgristexto2);
+            color: var(--colorazul);
             font-size: 14px;
         }
 
